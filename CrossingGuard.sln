@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D995E9
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossingGuard.AppManager.Core", "source\CrossingGuard.AppManager.Core\CrossingGuard.AppManager.Core.csproj", "{5BDA5F4A-4170-4E38-B252-B91C4A5DECBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{0D29EBA1-04E2-4EEF-A717-40446B9E82A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D29EBA1-04E2-4EEF-A717-40446B9E82A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D29EBA1-04E2-4EEF-A717-40446B9E82A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDA5F4A-4170-4E38-B252-B91C4A5DECBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDA5F4A-4170-4E38-B252-B91C4A5DECBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDA5F4A-4170-4E38-B252-B91C4A5DECBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDA5F4A-4170-4E38-B252-B91C4A5DECBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
