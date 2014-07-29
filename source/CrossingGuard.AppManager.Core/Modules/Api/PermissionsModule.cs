@@ -1,4 +1,4 @@
-﻿namespace CrossingGuard.Web.Core.Modules.Api {
+﻿namespace CrossingGuard.AppManager.Core.Modules.Api {
     using Nancy;
     using Nancy.ModelBinding;
     public class PermissionsModule : NancyModule {

@@ -1,24 +1,20 @@
-﻿namespace CrossingGuard.Web.Core.Models {
-    using System.Collections.Generic;
-    /// <summary>
-    /// Class RoleModel.
-    /// </summary>
-    public class RoleModel {
+﻿namespace CrossingGuard.AppManager.Core.Models {
+    public class RoleEditModel {
         /// <summary>
         /// Gets or sets the name.
         /// </summary>
         /// <value>The name.</value>
         public string Name { get; set; }
         /// <summary>
-        /// Gets or sets the included role i ds.
+        /// Gets or sets the roles included in this role.
         /// </summary>
-        /// <value>The included role i ds.</value>
-        public IncludedRoleModel[] IncludedRoles { get; set; }
+        /// <value>The included roles.</value>
+        public string[] IncludedRoles { get; set; }
         /// <summary>
-        /// Gets or sets the permission i ds.
+        /// Gets or sets the role permissions.
         /// </summary>
-        /// <value>The permission i ds.</value>
-        public PermissionModel[] Permissions { get; set; }
+        /// <value>The permissions.</value>
+        public string[] Permissions { get; set; }
         /// <summary>
         /// Gets or sets a value indicating whether this instance has all permissions.
         /// </summary>

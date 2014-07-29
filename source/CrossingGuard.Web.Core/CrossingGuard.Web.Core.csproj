@@ -47,27 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\AccountModel.cs" />
-    <Compile Include="Models\GroupEditModel.cs" />
-    <Compile Include="Models\GroupListModel.cs" />
-    <Compile Include="Models\GroupRoleAssignmentModel.cs" />
-    <Compile Include="Models\GroupRoleRemovalModel.cs" />
-    <Compile Include="Models\GroupUserAssignmentModel.cs" />
-    <Compile Include="Models\GroupUserSearchModel.cs" />
-    <Compile Include="Models\IncludedRoleEditModel.cs" />
-    <Compile Include="Models\IncludedRoleModel.cs" />
-    <Compile Include="Models\PermissionModel.cs" />
-    <Compile Include="Models\RoleEditModel.cs" />
-    <Compile Include="Models\RoleModel.cs" />
-    <Compile Include="Models\RolePermissionEditModel.cs" />
-    <Compile Include="Models\UserModel.cs" />
-    <Compile Include="Modules\Api\AccountsModule.cs" />
-    <Compile Include="Modules\Api\GroupMembersModule.cs" />
-    <Compile Include="Modules\Api\GroupRolesModule.cs" />
-    <Compile Include="Modules\Api\GroupsModule.cs" />
-    <Compile Include="Modules\Api\PermissionsModule.cs" />
-    <Compile Include="Modules\Api\RolesModule.cs" />
-    <Compile Include="Modules\Api\UsersModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

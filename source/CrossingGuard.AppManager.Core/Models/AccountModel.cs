@@ -1,4 +1,4 @@
-﻿namespace CrossingGuard.Web.Core.Models {
+﻿namespace CrossingGuard.AppManager.Core.Models {
     public class AccountModel {
         /// <summary>
         /// Gets or sets the name.

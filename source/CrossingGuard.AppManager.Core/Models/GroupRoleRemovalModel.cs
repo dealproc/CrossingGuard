@@ -1,4 +1,4 @@
-﻿namespace CrossingGuard.Web.Core.Models {
+﻿namespace CrossingGuard.AppManager.Core.Models {
     class GroupRoleRemovalModel {
         public string GroupKey { get; set; }
         public RoleAssignmentModel[] Assignments { get; set; }

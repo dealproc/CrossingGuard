@@ -1,4 +1,4 @@
-﻿namespace CrossingGuard.Web.Core.Models {
+﻿namespace CrossingGuard.AppManager.Core.Models {
     public class GroupEditModel {
         public string Name { get; set; }
         public string GroupKey { get; set; }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CrossingGuard.Web.Core.Models {
+﻿namespace CrossingGuard.AppManager.Core.Models {
     public class GroupListModel {
         public string Name { get; set; }
         public string GroupKey { get; set; }

@@ -1,4 +1,4 @@
-﻿namespace CrossingGuard.Web.Core.Models {
+﻿namespace CrossingGuard.AppManager.Core.Models {
     public class UserModel {
         /// <summary>
         /// Gets or sets the identifier.
