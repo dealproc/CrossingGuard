@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CrossingGuard.AppManager.Core")]
+[assembly: AssemblyTitle("CrossingGuard.AppManager.Host.AspNet")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CrossingGuard.AppManager.Core")]
+[assembly: AssemblyProduct("CrossingGuard.AppManager.Host.AspNet")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b0dd1eea-5b1c-4f4b-8858-45e3849eeacf")]
+[assembly: Guid("d6f0befb-bb8d-471f-89c9-e2959880abb6")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C7BE28D4-25AB-4148-8360-2FD4D46E873B}</ProjectGuid>
+    <ProjectGuid>{0C9182AC-FC14-4776-8C85-0337943DF389}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CrossingGuard.AppManager.Core</RootNamespace>
-    <AssemblyName>CrossingGuard.AppManager.Core</AssemblyName>
+    <RootNamespace>CrossingGuard.AppManager.Host.AspNet</RootNamespace>
+    <AssemblyName>CrossingGuard.AppManager.Host.AspNet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -70,6 +70,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrossingGuard.AppManager.Core\CrossingGuard.AppManager.Core.csproj">
+      <Project>{c7be28d4-25ab-4148-8360-2fd4d46e873b}</Project>
+      <Name>CrossingGuard.AppManager.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CrossingGuard.AppManager.Host.Core\CrossingGuard.AppManager.Host.Core.csproj">
+      <Project>{5bda5f4a-4170-4e38-b252-b91c4a5decbe}</Project>
+      <Name>CrossingGuard.AppManager.Host.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -83,9 +93,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13070</DevelopmentServerPort>
+          <DevelopmentServerPort>13069</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13070/</IISUrl>
+          <IISUrl>http://localhost:13069/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
