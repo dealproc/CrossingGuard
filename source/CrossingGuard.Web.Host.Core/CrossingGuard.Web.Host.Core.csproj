@@ -44,6 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Account\AccountListModel.cs" />
+    <Compile Include="Models\Account\AccountModel.cs" />
+    <Compile Include="Models\SoftwarePackage\SoftwarePackageAccountListModel.cs" />
+    <Compile Include="Models\SoftwarePackage\SoftwarePackageAccountModel.cs" />
+    <Compile Include="Models\SoftwarePackage\SoftwarePackageListModel.cs" />
+    <Compile Include="Models\SoftwarePackage\SoftwarePackageModel.cs" />
+    <Compile Include="Modules\Api\Account\AccountModule.cs" />
     <Compile Include="Modules\Api\Provisioning\DeviceModule.cs" />
     <Compile Include="Modules\Api\Provisioning\DeviceRequestModule.cs" />
     <Compile Include="Modules\Api\Provisioning\GroupMemberModule.cs" />
@@ -52,10 +59,15 @@
     <Compile Include="Modules\Api\Provisioning\PermissionModule.cs" />
     <Compile Include="Modules\Api\Provisioning\RoleModule.cs" />
     <Compile Include="Modules\Api\Provisioning\UserModule.cs" />
+    <Compile Include="Modules\Api\SoftwarePackage\SoftwarePackageAccountModule.cs" />
+    <Compile Include="Modules\Api\SoftwarePackage\SoftwarePackageModule.cs" />
+    <Compile Include="Modules\Api\User\UserModule.cs" />
+    <Compile Include="Modules\Api\User\ProfileModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Provisioning\" />
+    <Folder Include="Models\User\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
